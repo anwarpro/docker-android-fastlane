@@ -22,6 +22,7 @@ sdkmanager --sdk_root=$ANDROID_HOME "build-tools;${ANDROID_BUILD_TOOLS_VERSION}"
     "platform-tools" \
     "extras;android;m2repository" \
     "extras;google;m2repository" && \
+#install android-ndk
 # Install Fastlane
 apt-get update && \
 apt-get install --no-install-recommends -y --allow-unauthenticated build-essential git ruby-full && \
