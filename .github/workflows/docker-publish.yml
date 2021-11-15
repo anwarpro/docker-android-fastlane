@@ -1,8 +1,6 @@
 name: Build and publish to DockerHub
 
-on:
-  release:
-    types: [published]
+on: push
 
 jobs:
   docker_build_publish_job:
